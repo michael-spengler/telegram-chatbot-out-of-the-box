@@ -1,7 +1,7 @@
 import { TelegramInteractionBuilder, DefaultResponseProvider, AdvancedResponseProvider }
     from "telegram-interaction-builder"
 
-export class TelegramConsumer {
+export class TelegramChatBotOutOfTheBox {
     private interactionBuilder: TelegramInteractionBuilder
     private advancedResponseProvider: AdvancedResponseProvider
 
@@ -25,5 +25,5 @@ export class TelegramConsumer {
 
 }
 
-const consumer: TelegramConsumer = new TelegramConsumer()
+const consumer: TelegramChatBotOutOfTheBox = new TelegramChatBotOutOfTheBox()
 consumer.startMyTelegramChatBot()
