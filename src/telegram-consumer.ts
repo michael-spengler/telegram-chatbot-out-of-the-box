@@ -22,6 +22,7 @@ export class TelegramConsumer {
         this.interactionBuilder.setResponseProvider(this.advancedResponseProvider)
         this.interactionBuilder.startListening()
     }
+
 }
 
 const consumer: TelegramConsumer = new TelegramConsumer()
